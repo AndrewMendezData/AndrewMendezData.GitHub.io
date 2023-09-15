@@ -23,7 +23,7 @@ There is no doubt that your 4th Grade Math Teacher was RIGHT! **You WILL use mat
 
 <br>
 
-<img src="images/Massachusetts Education Overview.png?raw=true"><br>
+<img src="images/masseduoverview.png?raw=true"><br>
 
 In the dashboard above, starting on the left, we have the bottom tier of schools with the lowest graduation rates. Following that in the center in blue is the relationship between class size and graduation rates displaying an increase in graduation rate along with an increase in class size. On the right, we see the four school who have 4th Graders averaging at the 50th percentile or better.<br><br>
 
