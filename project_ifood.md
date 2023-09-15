@@ -18,7 +18,7 @@ iFood is a company similar to DoorDash that operates in Brazil and Columbia. The
 Link to Data (from 2014-2016)
 [iFood Data Set](https://www.kaggle.com/datasets/jackdaoud/marketing-data)
 
-<br><br>
+<br>
 
 ### Spending Based on Your Salary
 I took the Income and Amount Spent by the customers in the dataset and created this scatter plot:<br><br>
