@@ -11,11 +11,11 @@ Hospitals are one the most important "arteries of society", if you will. They he
 ### Objectives
 *I am assisting some hospital administrators in answers the following questions:*
 <ol>
-  1. What is the distribution of time spent in the hospital?
-  2. Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?
-  3. What medical specialties are doing the most number of procedures on average?
-  4. Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?
-  5. The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.
+  1. What is the distribution of time spent in the hospital?<br>
+  2. Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?<br>
+  3. What medical specialties are doing the most number of procedures on average?<br>
+  4. Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?<br>
+  5. The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.<br>
   6. A written summary for the top 50 patients in procedures and total medications.
 </ol>
 
@@ -27,9 +27,9 @@ The data is from a Kaggle dataset containing information on 130 US Hospitals fro
 ### Key Insights
 *From this analysis, we found:*
 <ol>
-  1. The most common stay for patients in the hospital is 3 days.
-  2. The time that patients stay in the hospital increases in relation to the amount of procedures that patient has received.
-  3. It appears that Thoracic Surgery has the highest average procedures across all the medical specialties in included in this dataset.
+  1. The most common stay for patients in the hospital is 3 days.<br>
+  2. The time that patients stay in the hospital increases in relation to the amount of procedures that patient has received.<br>
+  3. It appears that Thoracic Surgery has the highest average procedures across all the medical specialties in included in this dataset.<br>
   4. African Americans have the highest average rate of procedures overall.
 </ol>
 
