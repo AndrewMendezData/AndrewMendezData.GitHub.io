@@ -46,22 +46,22 @@ From this SQL histogram, we can see that the most common amount of time that pat
 **Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?**<br><br>
 For this question, I found the average time, in days, the patients were in the hospital depending on the amount of procedures they had: few = 0-24, average = 25-54, many = 55+.<br>
 Here was the query:<br>
-<img src="images/q2 avg amoount result.png?raw=true"><br><br>
+<img src="images/q2 avg amount query.png?raw=true"><br><br>
 
 I made sure to use the ROUND statement to shorten the numbers returned and ORDER BY DESC to see the highest amount of days first.<br>
 
 Here was the result:<br>
-<img src="images/q2 avg amount query.png?raw=true"><br><br>
+<img src="images/q2 avg amoount result.png?raw=true"><br><br>
 
 We see that the higher amount of procedures a patient has, the longer that patient stays in the hospital. This could inform decisions on which procedures are being overprescribed? Hospitals could dig deeper and see if less invasive methods could be practiced to help further reduce the time that patients spend in hospitals.<br><br>
 
 
 **What medical specialties are doing the most number of procedures on average?**<br><br>
 My query to explore this question:<br>
-<img src="images/q3 med spec query.png?raw=true"><br><br>
+<img src="images/q3 med spec result.png?raw=true"><br><br>
 
 SQL returned:<br>
-<img src="images/q3 med spec result.png?raw=true"><br><br>
+<img src="images/q3 med spec query.png?raw=true"><br><br>
 
 With this data, we can see that the Thoracic Surgery specialty is the one being utilized the most in terms of average procedures. This could help inform decisions about funding allocation and residency program organization to focus more energy in this specialty to improve patient outcomes.<br><br>
 
