@@ -2,6 +2,10 @@
 
 ### My Data Projects
 
+#### [Hospital Data Analysis with SQL](/project_hospitalsql)
+<img src="images/qSQLprojectpic.png?raw=true"/>
+
+---
 #### [iFood Project with Excel](/project_ifood)
 <img src="images/iFood Post Pic.jpg?raw=true"/>
 
