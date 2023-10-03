@@ -33,17 +33,17 @@ You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/predi
 </ol>
 
 ### Analysis
-**What is the distribution of time spent in the hospital?**<br>
+**What is the distribution of time spent in the hospital?**<br><br>
 For this question, I created a histogram using SQL code to help illustrate the distribution. I used this query:<br>
 <img src="images/q1 histogram result.png?raw=true"><br><br>
 
 From this query, SQL returned:<br>
-<img src"images/q1 sql code histogram.png?raw=true"><br><br>
+<img src="images/q1 sql code histogram.png?raw=true"><br><br>
 
 From this SQL histogram, we can see that the most common amount of time that patients stay in the hospital is 3 days. Further analysis could be conducted to find why a 3-day timeframe is the most common.<br><br>
 
 
-**Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?**<br>
+**Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?**<br><br>
 For this question, I found the average time, in days, the patients were in the hospital depending on the amount of procedures they had: few = 0-24, average = 25-54, many = 55+.<br>
 Here was the query:<br>
 <img src="images/q2 avg amoount result.png?raw=true"><br><br>
@@ -51,44 +51,44 @@ Here was the query:<br>
 I made sure to use the ROUND statement to shorten the numbers returned and ORDER BY DESC to see the highest amount of days first.<br>
 
 Here was the result:<br>
-<img src"images/q2 avg amount query.png?raw=true"><br><br>
+<img src="images/q2 avg amount query.png?raw=true"><br><br>
 
 We see that the higher amount of procedures a patient has, the longer that patient stays in the hospital. This could inform decisions on which procedures are being overprescribed? Hospitals could dig deeper and see if less invasive methods could be practiced to help further reduce the time that patients spend in hospitals.<br><br>
 
 
-**What medical specialties are doing the most number of procedures on average?**<br>
+**What medical specialties are doing the most number of procedures on average?**<br><br>
 My query to explore this question:<br>
 <img src="images/q3 med spec query.png?raw=true"><br><br>
 
 SQL returned:<br>
-<img src"images/q3 med spec result.png?raw=true"><br><br>
+<img src="images/q3 med spec result.png?raw=true"><br><br>
 
 With this data, we can see that the Thoracic Surgery specialty is the one being utilized the most in terms of average procedures. This could help inform decisions about funding allocation and residency program organization to focus more energy in this specialty to improve patient outcomes.<br><br>
 
 
-**Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?**<br>
+**Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?**<br><br>
 For this query, I used the JOIN statement to bring together two tables in the "patient" database; "health" & "demographics". Here is the query I used:<br>
 <img src="images/q4 query.png?raw=true"><br><br>
 
 Here is the return:<br>
-<img src"images/q4 result.png?raw=true"><br><br>
+<img src="images/q4 result.png?raw=true"><br><br>
 
 From the resulting data, it appears that African Americans have the highest average number of lab procedures (though not too far off from the others, still the highest). More analysis could uncover why this could be. We also found that there is a high number of patients in the database without a race value. This could shed light on an administrative issue during intake that should be addressed to keep accurate and complete data on file.<br><br>
 
 
-**The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.**<br>
+**The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.**<br><br>
 To find this specific data, I used the following query:<br>
 <img src="images/q5 query.png?raw=true"><br><br>
 
 I used a CTE (common table expression), avg_time, to clarify the statement in the query. This resulted in the patients who admitted as an emergency but were well enough to be discharged quicker than the average stay in the hospital.<br><br>
 
 
-**A written summary for the top 50 patients in procedures and total medications.**<br>
+**A written summary for the top 50 patients in procedures and total medications.**<br><br>
 For this query, I had to use the CONCAT statement to put together full sentences that included that data that the administration was requesting. The query includes the CASE WHEN statement to alternate between whether the patient was readmitted to the hospital or not. There is also an INNER JOIN included because the demographic information was on a separate table from the data on medications & procedures. Here was the query:<br>
 <img src="images/q6 query.png?raw=true"><br><br>
 
 Here is the resulting information:<br>
-<img src"images/q6 result.png?raw=true"><br><br>
+<img src="images/q6 result.png?raw=true"><br><br>
 
 This information is useful to combine multiple pieces of information to create a cohesive statement that is easy to digest. It can help clarify a general relation between certain pieces of data.<br><br>
 
