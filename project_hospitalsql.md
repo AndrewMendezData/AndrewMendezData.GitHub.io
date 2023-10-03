@@ -1,27 +1,40 @@
 # Can We A(Mass) Higher Math Scores?
 
-<img src="images/MassMathMemo.png?raw=true">
+<img src="images/qSQLprojectpic.png?raw=true">
 
-This project was the second in the Data Analytics Bootcamp led by Avery Smith. This project helped me explore Tableau and its power in creating eye-catching graphics that help illustrate key findings.<br>
-
-In this project, we explored some data on the Massachusetts Public School system for the year 2017.<br>
+This project was the third in the Data Analytics Bootcamp led by Avery Smith. This project helped me explore more Advanced SQL and see which tools are at our disposal as analysts to extract meaning from data.<br>
 
 ---
 
-There is no doubt that your 4th Grade Math Teacher was RIGHT! **You WILL use math throughout your entire life; not just in school.** It's no wonder why schools place such a huge emphasis on getting their students more fluent in mathematics. The State of Massachusetts has requested an overview of the current (2017) state of their public schools, focusing in on math performance in 4th grade classrooms, to strategize next steps in getting their kids on the right track before heading into middle school and beyond.<br>
+Hospitals are one the most important "arteries of society", if you will. They help keep communities healthy and live longer lives. It's important, though, to do a self-check to ensure that hospitals are running efficiently and are producing the result that they are meant to produce. An big-picture analysis could help give us some insight into what needs to improve to continue provide quality care in hospitals around the country.<br>
 
-*They are interested in a few things:*
+### Objectives
+*I am assisting some hospital administrators in answers the following questions:*
 <ol>
-  1. What is the current state of schools in Massachusetts?<br>
-  2. Which schools are the top performing?<br>
-  3. Which schools need more help?<br>
-  4. Does class size affect college admission?
+  1. What is the distribution of time spent in the hospital?
+  2. Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?
+  3. What medical specialties are doing the most number of procedures on average?
+  4. Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?
+  5. The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.
+  6. A written summary for the top 50 patients in procedures and total medications.
 </ol>
 
-### Let's Start with the Data!
-[Massachusetts Public School System (2017)](https://www.kaggle.com/datasets/ndalziel/massachusetts-public-schools-data)
+### The Data!
+The data is from a Kaggle dataset containing information on 130 US Hospitals from the years 1999-2008. You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv)
 
 <br>
+
+### Key Insights
+*From this analysis, we found:*
+<ol>
+  1. The most common stay for patients in the hospital is 3 days.
+  2. The time that patients stay in the hospital increases in relation to the amount of procedures that patient has received.
+  3. It appears that Thoracic Surgery has the highest average procedures across all the medical specialties in included in this dataset.
+  4. African Americans have the highest average rate of procedures overall.
+</ol>
+
+
+
 
 <img src="images/masseduoverview.png?raw=true"><br>
 
