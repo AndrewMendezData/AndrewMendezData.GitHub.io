@@ -1,4 +1,4 @@
-# Can We A(Mass) Higher Math Scores?
+# A Dive into Hospital Data
 
 <img src="images/qSQLprojectpic.png?raw=true">
 
@@ -20,7 +20,7 @@ Hospitals are one the most important "arteries of society", if you will. They he
 </ol>
 
 ### The Data!
-The data is from a Kaggle dataset containing information on 130 US Hospitals from the years 1999-2008. You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv)
+The data is from a Kaggle dataset containing information on 130 US Hospitals from the years 1999-2008. You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
 
 <br>
 
