@@ -34,7 +34,9 @@ You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/predi
 
 ### Analysis
 **What is the distribution of time spent in the hospital?**<br><br>
-For this question, I created a histogram using SQL code to help illustrate the distribution. I used this query:<br><br>
+For this question, I created a histogram using SQL code to help illustrate the distribution. <br><br>
+
+I used this query:<br><br>
 <img src="images/q1 sql code histogram.png?raw=true"><br><br>
 
 From this query, SQL returned:<br><br>
@@ -45,10 +47,11 @@ From this SQL histogram, we can see that the most common amount of time that pat
 
 **Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?**<br><br>
 For this question, I found the average time, in days, the patients were in the hospital depending on the amount of procedures they had: few = 0-24, average = 25-54, many = 55+.<br><br>
+
 Here was the query:<br><br>
 <img src="images/q2 avg amount query.png?raw=true"><br><br>
 
-I made sure to use the ROUND statement to shorten the numbers returned and ORDER BY DESC to see the highest amount of days first.<br>
+I made sure to use the ROUND statement to shorten the numbers returned and ORDER BY DESC to see the highest amount of days first.<br><br>
 
 Here was the result:<br><br>
 <img src="images/q2 avg amoount result.png?raw=true"><br><br>
@@ -57,6 +60,7 @@ We see that the higher amount of procedures a patient has, the longer that patie
 
 
 **What medical specialties are doing the most number of procedures on average?**<br><br>
+
 My query to explore this question:<br><br>
 <img src="images/q3 med spec query.png?raw=true"><br><br>
 
@@ -67,7 +71,9 @@ With this data, we can see that the Thoracic Surgery specialty is the one being 
 
 
 **Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?**<br><br>
-For this query, I used the JOIN statement to bring together two tables in the "patient" database; "health" & "demographics". Here is the query I used:<br><br>
+For this query, I used the JOIN statement to bring together two tables in the "patient" database; "health" & "demographics". <br><br>
+
+Here is the query I used:<br><br>
 <img src="images/q4 query.png?raw=true"><br><br>
 
 Here is the return:<br><br>
@@ -77,6 +83,7 @@ From the resulting data, it appears that African Americans have the highest aver
 
 
 **The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.**<br><br>
+
 To find this specific data, I used the following query:<br><br>
 <img src="images/q5 query.png?raw=true"><br><br>
 
@@ -84,7 +91,9 @@ I used a CTE (common table expression), avg_time, to clarify the statement in th
 
 
 **A written summary for the top 50 patients in procedures and total medications.**<br><br>
-For this query, I had to use the CONCAT statement to put together full sentences that included that data that the administration was requesting. The query includes the CASE WHEN statement to alternate between whether the patient was readmitted to the hospital or not. There is also an INNER JOIN included because the demographic information was on a separate table from the data on medications & procedures. Here was the query:<br><br>
+For this query, I had to use the CONCAT statement to put together full sentences that included that data that the administration was requesting. The query includes the CASE WHEN statement to alternate between whether the patient was readmitted to the hospital or not. There is also an INNER JOIN included because the demographic information was on a separate table from the data on medications & procedures. <br><br>
+
+Here was the query:<br><br>
 <img src="images/q6 query.png?raw=true"><br><br>
 
 Here is the resulting information:<br><br>
