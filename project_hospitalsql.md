@@ -19,10 +19,9 @@ Hospitals are one the most important "arteries of society", if you will. They he
   6. A written summary for the top 50 patients in procedures and total medications.
 </ol>
 
-### The Data!
-The data is from a Kaggle dataset containing information on 130 US Hospitals from the years 1999-2008. You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
-
-<br>
+### The Data
+The data is from a Kaggle dataset containing information on 130 US Hospitals from the years 1999-2008.<br>
+You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
 
 ### Key Insights
 *From this analysis, we found:*
@@ -33,10 +32,11 @@ The data is from a Kaggle dataset containing information on 130 US Hospitals fro
   4. African Americans have the highest average rate of procedures overall.
 </ol>
 
+### Analysis
+**What is the distribution of time spent in the hospital?**
+For this question, I created a histogram using SQL code to help illustrate the distribution. I used this query:<br>
+<img src="
 
-
-
-<img src="images/masseduoverview.png?raw=true"><br>
 
 In the dashboard above, starting on the left, we have the bottom tier of schools with the lowest graduation rates. Following that in the center in blue is the relationship between class size and graduation rates displaying an increase in graduation rate along with an increase in class size. On the right, we see the four school who have 4th Graders averaging at the 50th percentile or better.<br><br>
 
