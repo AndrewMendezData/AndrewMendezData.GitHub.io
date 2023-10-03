@@ -35,10 +35,10 @@ You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/predi
 ### Analysis
 **What is the distribution of time spent in the hospital?**<br><br>
 For this question, I created a histogram using SQL code to help illustrate the distribution. I used this query:<br>
-<img src="images/q1 histogram result.png?raw=true"><br><br>
+<img src="images/q1 sql code histogram.png?raw=true"><br><br>
 
 From this query, SQL returned:<br>
-<img src="images/q1 sql code histogram.png?raw=true"><br><br>
+<img src="images/q1 histogram result.png?raw=true"><br><br>
 
 From this SQL histogram, we can see that the most common amount of time that patients stay in the hospital is 3 days. Further analysis could be conducted to find why a 3-day timeframe is the most common.<br><br>
 
@@ -58,10 +58,10 @@ We see that the higher amount of procedures a patient has, the longer that patie
 
 **What medical specialties are doing the most number of procedures on average?**<br><br>
 My query to explore this question:<br>
-<img src="images/q3 med spec result.png?raw=true"><br><br>
+<img src="images/q3 med spec query.png?raw=true"><br><br>
 
 SQL returned:<br>
-<img src="images/q3 med spec query.png?raw=true"><br><br>
+<img src="images/q3 med spec result.png?raw=true"><br><br>
 
 With this data, we can see that the Thoracic Surgery specialty is the one being utilized the most in terms of average procedures. This could help inform decisions about funding allocation and residency program organization to focus more energy in this specialty to improve patient outcomes.<br><br>
 
