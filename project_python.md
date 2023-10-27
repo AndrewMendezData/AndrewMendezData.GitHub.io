@@ -144,6 +144,48 @@ This helps to further dial into the data that will help provide some answers to 
 
 
 ### Data Visualization in Python
+To be able to visually evaluate, and later present, this data, we will be using Seaborn next to execute a Pairplot:<br><br>
+
+<img src="images/python17pairplot.png?raw=true"><br><br>
+
+In this code, I'm utilizing the IDE Seaborn, represented as sns, and executing the function .pairplot on the dataframe "df_june_imp". This displays a 4x4 grid which compares two variables in multiple instances simultaneously. This allows for quick analysis of the variables in the dataframe and allows the possibility of noting any relationships quickly. (You can access the entire Pairplot [here](https://embed.deepnote.com/3003bd3d-8b36-4855-8a6c-9d1d5632980a/8a2bc724701b4e448af86fa640c5f5d4/db6359d82e4f49f6b6e439115ff3bc74?height=775.1875))<br><br>
+
+
+### Is there any significant correlation?
+In the case that you wanted a numerical correlation to further validate your hypothesis after looking at the pairplot, you can ask Python to run the correlation function:<br><br>
+
+<img src="images/python18corr.png?raw=true"><br><br>
+
+This function that provide further evidence for your findings once you present this your key insights from the data.<br><br>
+
+
+### Lineplots
+If you wanted to present the information in a more widely used lineplot, we could use Seaborn again to create one:<br><br>
+
+<img src="images/python19lineplot.png?raw=true"><br><br>
+
+Here we are asking Python to use the lineplot function from Seaborn (sns) and we're outlining the parameters for x & y and where the data is located.<br><br><br>
+
+
+We could write this code multiple times to create a lineplot for each of the other series of interest, or we could create a "for loop" to create all of the visualizations at once!<br><br>
+
+<img src="images/python20forloopcode.png?raw=true"><br><br>
+
+I first created another variable to represent the 4 series that I'm interested in (removing the date series). In the "for loop", I'm starting by specifying the range by using the len function (meaning length) of the "imp_cols_nd" variable. I'm then asking Python to have "col_name" represent each of the values in "imp_cols_nd" and then specifying the parameters for each lineplot where x will equal the "date_clean" and y will equal the col_name which will change as the loop progresses and then lastly where to find that data. To finish out the code, I utilize matplotlib to help add detail to the lineplots like a title. <br><br>
+
+Here is the finished product:<br><br>
+
+<img src="images/python21for1.png?raw=true"><br>
+
+<img src="images/python22for2.png?raw=true"><br>
+
+<img src="images/python23for3.png?raw=true"><br>
+
+<img src="images/python24for4.png?raw=true"><br><br>
+
+
+### Final Thoughts
+At first glance, Python is intimidating. The code is unique and because of all the IDE's available there are practically endless capabilities and uses. I definitely feel that I have a much better grasp on the tool and I'm excited to get even better acquainted with its power.<br><br>
 
 
 
