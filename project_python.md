@@ -134,5 +134,17 @@ Now, my contact at the Flotation Plant is asking if I could extract data specifi
 
 I am asking Python to search within "df" the dates that are greater than March 31, 2017 @ 11:59pm AND less than June 2, 2017 within the "date_clean" series and then after returning those rows to RESET the index to finalize the NEW dataframe that I am naming "df_june". <br><br>
 
+We want to use rows in this newly created dataframe, "df_june", to include ONLY the important columns that we labeled earlier.<br><br>
+
+<img src="images/python16dfjuneimp.png?raw=true"><br><br>
+
+We are now naming another variable to be defined as the "df_june" dataframe displaying its rows using only the data included in "imp_cols".<br><br>
+
+This helps to further dial into the data that will help provide some answers to the questions that the Flotation Plant is posing. <br><br>
+
+
+### Data Visualization in Python
+
+
 
 
