@@ -128,7 +128,7 @@ This method is very useful in trimming down the database to pinpoint data that i
 
 
 ### A Change in Parameters
-Now my contact at the Flotation Plant is asking if I could extract data specifically between the dates of March 31st and June 2nd. Since this data is significant in my research to find insights, I am going to create its own dataframe and reset the index.<br><br>
+Now, my contact at the Flotation Plant is asking if I could extract data specifically between the dates of March 31st and June 2nd. Since this data is significant in my research to find insights, I am going to create its own dataframe and reset the index.<br><br>
 
 <img src="images/python15dfjune.png?raw=true"><br><br>
 
