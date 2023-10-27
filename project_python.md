@@ -1,112 +1,138 @@
-# A Dive into Hospital Data
+# Flotation Plant Exploration
+## A Python Playground
 
-<img src="images/qSQLprojectpic.png?raw=true">
+<img src="images/zpythonplayground.png?raw=true">
 
-This project was the third in the Data Analytics Bootcamp led by Avery Smith. This project helped me explore more Advanced SQL and see which tools are at our disposal as analysts to extract meaning from data.<br>
+This is the 4th Project that I posted working through the Data Analytics Accelerator Bootcamp led by Avery Smith. I was introduced to Python and its incredible power!<br>
 
 ---
 
-Hospitals are one the most important "arteries of society", if you will. They help keep communities healthy and live longer lives. It's important, though, to do a self-check to ensure that hospitals are running efficiently and are producing the result that they are meant to produce. An big-picture analysis could help give us some insight into what needs to improve to continue provide quality care in hospitals around the country.<br>
-
-### Objectives
-*I am assisting some hospital administrators in answers the following questions:*
-<ol>
-  1. What is the distribution of time spent in the hospital?<br>
-  2. Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?<br>
-  3. What medical specialties are doing the most number of procedures on average?<br>
-  4. Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?<br>
-  5. The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.<br>
-  6. A written summary for the top 50 patients in procedures and total medications.
-</ol>
-
-### The Data
-The data is from a Kaggle dataset containing information on 130 US Hospitals from the years 1999-2008.<br>
-You can find the data [here](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv).
-
-### Key Insights
-*From this analysis, we found:*
-<ol>
-  1. The most common stay for patients in the hospital is 3 days.<br>
-  2. The time that patients stay in the hospital increases in relation to the amount of procedures that patient has received.<br>
-  3. It appears that Thoracic Surgery has the highest average procedures across all the medical specialties in included in this dataset.<br>
-  4. African Americans have the highest average rate of procedures overall.
-</ol>
-
-### Analysis
-**What is the distribution of time spent in the hospital?**<br><br>
-For this question, I created a histogram using SQL code to help illustrate the distribution. <br><br>
-
-I used this query:<br><br>
-<img src="images/q1 sql code histogram.png?raw=true"><br><br>
-
-From this query, SQL returned:<br><br>
-<img src="images/q1 histogram result.png?raw=true"><br><br>
-
-From this SQL histogram, we can see that the most common amount of time that patients stay in the hospital is 3 days. Further analysis could be conducted to find why a 3-day timeframe is the most common.<br><br>
+This project is a little different compared to the first three I wrote from this bootcamp. My intention for this project was for it to be a more "skill share" format where I'm describing what I've learned and when, or how, to use specific functions when manipulating and diving into the data. I used a real dataset that came from a Flotation Plant from March to September 2017. (You can access the dataset [here](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process))<br>
 
 
-**Is there a relationship between the number of procedures a patient has and how long they stay in the hospital?**<br><br>
-For this question, I found the average time, in days, the patients were in the hospital depending on the amount of procedures they had: few = 0-24, average = 25-54, many = 55+.<br><br>
+### Installing IDE's
+I was very interested to learn about IDE's (Integrated Development Environments). These libraries are one of the key reasons by Python is such an incredibly powerful platform for data analysis.<br><br>
 
-Here was the query:<br><br>
-<img src="images/q2 avg amount query.png?raw=true"><br><br>
+My first step in this Python Playground was to install these IDE's using !pip install. I used Pandas (data manipulation), Seaborn (data viz) & Matplotlib (data viz).<br><br>
 
-I made sure to use the ROUND statement to shorten the numbers returned and ORDER BY DESC to see the highest amount of days first.<br><br>
-
-Here was the result:<br><br>
-<img src="images/q2 avg amoount result.png?raw=true"><br><br>
-
-We see that the higher amount of procedures a patient has, the longer that patient stays in the hospital. This could inform decisions on which procedures are being overprescribed? Hospitals could dig deeper and see if less invasive methods could be practiced to help further reduce the time that patients spend in hospitals.<br><br>
+<img src="images/python1ide.png?raw=true"><br><br>
 
 
-**What medical specialties are doing the most number of procedures on average?**<br><br>
+### Uploading Database Into Deepnote
+Next, I uploaded the Flotation Plant data into Deepnote, and then introduced it into my Deepnote notebook.<br><br>
 
-My query to explore this question:<br><br>
-<img src="images/q3 med spec query.png?raw=true"><br><br>
+<img src="images/python2csv.png?raw=true"><br><br>
 
-SQL returned:<br><br>
-<img src="images/q3 med spec result.png?raw=true"><br><br>
-
-With this data, we can see that the Thoracic Surgery specialty is the one being utilized the most in terms of average procedures. This could help inform decisions about funding allocation and residency program organization to focus more energy in this specialty to improve patient outcomes.<br><br>
+In this code, I am naming a variable "df" (dataframe) to be the CSV file I uploaded containing the data. I'm telling Python that I'm using the Pandas function to read the CSV file: pd.read_csv() and then including the decimal command to replace the commas in the file with decimals to ease of reading.<br><br>
 
 
-**Is the hospital treating patients of different races differently, specifically with the number of lab procedures done?**<br><br>
-For this query, I used the JOIN statement to bring together two tables in the "patient" database; "health" & "demographics". <br><br>
+### Getting to Know This Dataframe
+One of the important first steps that Data Analysts should NEVER skip is to **get to know** the data that you are working with! In other words, what does each series represent (the columns in Pandas), what's the shape of the dataframe you're working with, are there any NULL variables present, how are the series formatted, is there any missing or incomplete data, what is the range of the data, etc.<br><br>
 
-Here is the query I used:<br><br>
-<img src="images/q4 query.png?raw=true"><br><br>
+First, I used the **head** function to get a preview of the first 5 rows of data in the dataframe (first five rows is the default when no parameter is set within the parenthesis in this function).<br><br>
 
-Here is the return:<br><br>
-<img src="images/q4 result.png?raw=true"><br><br>
+<img src="images/python3head.png?raw=true"><br><br>
 
-From the resulting data, it appears that African Americans have the highest average number of lab procedures (though not too far off from the others, still the highest). More analysis could uncover why this could be. We also found that there is a high number of patients in the database without a race value. This could shed light on an administrative issue during intake that should be addressed to keep accurate and complete data on file.<br><br>
+I also want to point out here that Python is based on a "Zero Index" where zero represents the FIRST value, which is why in the above graphic we see that the first row has an index of "0". This is also important to remember when using **.iloc**, for example, which we'll visit later on.<br><br>
 
 
-**The Hospital Administrators wanted to highlight some of the biggest success stories of the hospital. They are looking for instances where patients came into the hospital with an emergency (admission_type_id of 1) but stayed less than the average time in the hospital.**<br><br>
+### Shape of the Dataframe
+Next I wanted to know the overall **shape** of the data I was working with, so I used the shape function:<br><br>
 
-To find this specific data, I used the following query:<br><br>
-<img src="images/q5 query.png?raw=true"><br><br>
+<img src="images/python4shape.png?raw=true"><br><br>
 
-I used a CTE (common table expression), avg_time, to clarify the statement in the query. This resulted in the patients who admitted as an emergency but were well enough to be discharged quicker than the average stay in the hospital.<br><br>
-
-
-**A written summary for the top 50 patients in procedures and total medications.**<br><br>
-For this query, I had to use the CONCAT statement to put together full sentences that included that data that the administration was requesting. The query includes the CASE WHEN statement to alternate between whether the patient was readmitted to the hospital or not. There is also an INNER JOIN included because the demographic information was on a separate table from the data on medications & procedures. <br><br>
-
-Here was the query:<br><br>
-<img src="images/q6 query.png?raw=true"><br><br>
-
-Here is the resulting information:<br><br>
-<img src="images/q6 result.png?raw=true"><br><br>
-
-This information is useful to combine multiple pieces of information to create a cohesive statement that is easy to digest. It can help clarify a general relation between certain pieces of data.<br><br>
+Here Python returns these two values encased in paranthesis and separated by a comma. The first value in this set is the total number of rows (737,453) and the second number is the total number of series (24) in the dataframe. This format, (rows, series), is important to understand as well as it applies to other functions as well. <br><br>
 
 
-### Conclusions
-It's clear that the more procedures a patient has, the longer they tend to stay in the hospital. Most patients spend 3 days in the hospital, average as 4.4 days; this information can help inform further analysis into how to reduce 3 days to 2 days and help save money for the hospital to use elsewhere. The data also showed that African American patients have the highest average rate of lab procedures. Further research could uncover the cause of this and if there is a presence of bias in hospital protocol.
+### List of Series
+Let's take a look at a list of all the series in our dataframe:<br><br>
 
-### Personal Notes
-This analysis has uncovered some interesting results that lead to more questions. These insights could lead to answers that could help hospitals become more efficient and effective, and maybe even save some money!<br><br>
-Thank you for reading through the project! Please provide feedback as I'm using these practice projects to break through into the world of data. I'm open to work and new data opportunities! Connect with me!<br><br><br>
+<img src="images/python5columns.png?raw=true"><br><br>
 
-*This project is from a Data Analytics Bootcamp and is not meant to provide actionable insight. Its purpose is to showcase skill and depth of knowledge in the field of Analytics.*
+Python returns a list of all the series present. The list here is represented by the data encased within square brackets INSIDE of the parentheses, and all the data separated by commas and single quotations. <br><br>
+
+Next, let's take a look at a **single series**. Python gives us an overview of the series specified, in this case the "date" column:<br><br>
+
+<img src="images/python6datecolumn.png?raw=true"><br><br>
+
+It returns the first five and last five rows, and gives us the Name, Length, and datatype. Note, here, that the length that Python returned was 737, 453, which matches the total number of rows returned when we used the shape function. But on the left column, the last row comes up as 737, 452! This is the result of the "Zero Index" functionality: the first row here is indexed as "0", therefore the length is accurate even though the index is not the same.<br><br>
+
+
+### Using describe()
+<img src="images/python12describe.png?raw=true"><br><br>
+
+This function returns a count, mean, standard deviation, min, max, and the quartile values of each series. This is an extremely useful function that can further help you get a more bird's-eye-view of your data.<br><br>
+
+
+### The Timeframe
+Another important parameter to be considered is the dates in which the data occurred. We'll use a simple "min" and "max" function to determine the timeframe we're exploring with this data:<br><br>
+
+<img src="images/python13datecleanminmax.png?raw=true"><br><br>
+
+In this code, I'm naming a variable for each value and naming it as the "min" and "max" value of the series "date_clean" and asking Python to print it using text and the variable in a string. Thus, returning the "min" and "max" dates in two sentences.<br><br>
+
+
+### Data Manipulation
+When we are looking at data in Python, we will need to be able to select SPECIFIC data in order to answer business related questions and to add value to the business. <br><br>
+
+An important function to know to do this in Python is the Index Location function:<br><br>
+
+<img src="images/python7iloc.png?raw=true"><br><br>
+
+Here, I am telling Python that I want it to return rows 1-2 which is represented as 0:2 on the left side of the comma. The colon here represents "in between", Python will return the first and second row, but not the third (index 2). The same applies for the series 0:2 which returns the first two columns.<br><br>
+
+If you wanted to specify the first two rows, but ALL of the columns in the dataframe, you would add a colon ":" to the right side of the comma.<br><br>
+
+Further specifying specific rows and series would be encased within square brackets signaling to Python that there is a list.<br><br>
+
+
+### Discovering the Data Types
+Data types are important when manipulating data because you want to make sure that the platform you're using is treating the data appropriately so that your insights are accurate and for your visualizations to populate smoothly.<br><br>
+
+I used the type() function:<br><br>
+
+<img src="images/python8datatypeprint.png?raw=true"><br><br>
+
+Here, we're asking Python to print three things: the first is the datatype of "df" which is our dataframe, the second is asking about the series titled "date", and the third is asking about the first value present in the series "date".<br><br>
+
+The first two rows that Python returned match what we expect them to, but the third shows that the values in the "date" series are formatted as a string and not as an actual date. <br><br>
+
+To fix this, we use the .to_datetime function in Pandas:<br><br>
+
+<img src="images/python9changedateformat.png?raw=true"><br><br>
+
+Here we're also naming a new series (or column) in the "df" dataframe to BE the series "date" but formatted as a datetime. <br><br>
+
+To check this, we used the same function as above:<br><br>
+
+<img src="images/python10checkdatetype.png?raw=true"><br><br>
+
+This shows the first value in the "date_clean" series is formatted as a timestamp in Pandas.<br><br>
+
+To double check that the series was created in the dataframe, we can use **head** once more:<br><br>
+
+<img src="images/python11shownewseries.png?raw=true"><br><br>
+
+
+
+### Let's Specify!
+Let's say that I am asked to look at specific columns in regards to specific data!<br><br>
+
+<img src="images/python14impcols.png?raw=true"><br><br>
+
+Let's say the Flotation Plant is looking at: % Iron Concentrate, % Silica Concentrate, Ore Pulp pH, Flotation Column 05 Level and all the data AFTER September 1st after 12pm. I will name a variable to equal the list of columns that we're looking at and include the date for further clarity. <br><br>
+
+I then use **.loc** and specify that the rows I want returned need to be greater than Sep 1st at 12pm using the "date_clean" series and with those rows I want to look at "imp_cols" which include all the information that the plant is most interested in.<br><br>
+
+This method is very useful in trimming down the database to pinpoint data that is relevant to the questions that are being asked. The use of variables in this instance helps to streamline my code so that I can efficiently manipulate the data to find the answers I'm searching for. <br><br>
+
+
+### A Change in Parameters
+Now my contact at the Flotation Plant is asking if I could extract data specifically between the dates of March 31st and June 2nd. Since this data is significant in my research to find insights, I am going to create its own dataframe and reset the index.<br><br>
+
+<img src="images/python15dfjune.png?raw=true"><br><br>
+
+I am asking Python to search within "df" the dates that are greater than March 31, 2017 @ 11:59pm AND less than June 2, 2017 within the "date_clean" series and then after returning those rows to RESET the index to finalize the NEW dataframe that I am naming "df_june". <br><br>
+
+
+
