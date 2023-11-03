@@ -1,50 +1,49 @@
 # HR Nightmare: Arguing Attrition
 ## Using R
 
-<img src="images/zpythonplayground.png?raw=true">
+<img src="images/arguingattrition.png?raw=true">
 
-This is the 4th Project that I posted working through the Data Analytics Accelerator Bootcamp led by Avery Smith. I was introduced to Python and its incredible power!<br>
+This is the 5th Project that I posted working through the Data Analytics Accelerator Bootcamp led by Avery Smith. I used R to come up with these insights.<br>
 
 ---
 
-This project is a little different compared to the first three I wrote from this bootcamp. My intention for this project was for it to be a more "skill share" format where I'm describing what I've learned and when, or how, to use specific functions when manipulating and diving into the data. I used a real dataset that came from a Flotation Plant from March to September 2017. (You can access the dataset [here](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process))<br>
+Recently, I was brought onboard a team to analyze the company's HR data. They've had a lot of staff leaving the company and they want a better insight as to why this is happening. This is extremely powerful knowledge to have at your disposal! I used R to help calculate p-values and other predictive data to help the company get some answers.<br>
+
+***So I went to work on the following:***<br>
+1. An overview of how some of the most important demographics correlate.<br>
+2. Is the recent attrition attributed at all to age?<br>
+3. Is the majority of the recent attrition rates from the most recently hired staff?<br>
+4. What is the statistical significance of "age" and "monthly income" within the company? What if we add "total working years"? Is this a good predictor of monthly income?<br><br>
 
 
-### Installing IDE's
-I was very interested to learn about IDE's (Integrated Development Environments). These libraries are one of the key reasons by Python is such an incredibly powerful platform for data analysis.<br><br>
-
-My first step in this Python Playground was to install these IDE's using !pip install. I used Pandas (data manipulation), Seaborn (data viz) & Matplotlib (data viz).<br><br>
-
-<img src="images/python1ide.png?raw=true"><br><br>
+### The Data
+You can find the data I used for this analysis [here](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).<br>
+This dataset include 1470 rows (each representing one employee) and 35 columns (demographic info).<br><br>
 
 
-### Uploading Database Into Deepnote
-Next, I uploaded the Flotation Plant data into Deepnote, and then introduced it into my Deepnote notebook.<br><br>
-
-<img src="images/python2csv.png?raw=true"><br><br>
-
-In this code, I am naming a variable "df" (dataframe) to be the CSV file I uploaded containing the data. I'm telling Python that I'm using the Pandas function to read the CSV file: pd.read_csv() and then including the decimal command to replace the commas in the file with decimals to ease of reading.<br><br>
-
-
-### Getting to Know This Dataframe
-One of the important first steps that Data Analysts should NEVER skip is to **get to know** the data that you are working with! In other words, what does each series represent (the columns in Pandas), what's the shape of the dataframe you're working with, are there any NULL variables present, how are the series formatted, is there any missing or incomplete data, what is the range of the data, etc.<br><br>
-
-First, I used the **head** function to get a preview of the first 5 rows of data in the dataframe (first five rows is the default when no parameter is set within the parenthesis in this function).<br><br>
-
-<img src="images/python3head.png?raw=true"><br><br>
-
-I also want to point out here that Python is based on a "Zero Index" where zero represents the FIRST value, which is why in the above graphic we see that the first row has an index of "0". This is also important to remember when using **.iloc**, for example, which we'll visit later on.<br><br>
+### Key Insights
+Here are the most interesting findings from my analysis:<br>
+* There is a **statistically significant** correlation in predicting Monthly Income from two variables: Age & Total Working Years.<br>
+* There was **no statistical significance** between the AGE or TIME OF HIRE for the employees at this company and whether or not they stayed or left the company (voluntary or otherwise).<br>
+* The company could begin building messaging to its current employees about the possibility of increased income in relation to their loyalty to the company to help retain the employees that they do have.<br><br>
 
 
-### Shape of the Dataframe
-Next I wanted to know the overall **shape** of the data I was working with, so I used the shape function:<br><br>
+### The Analysis
+***An overview of how some of the most important demographics correlate.***<br>
 
-<img src="images/python4shape.png?raw=true"><br><br>
+First, I wanted to get a "bird's eye view" of some of the most important demographics for the company. They asked me to include: age, daily rate, distance from home, education, hourly rate, monthly income, monthly rate, number of companies worked, total working years, and training times last year.<br>
 
-Here Python returns these two values encased in paranthesis and separated by a comma. The first value in this set is the total number of rows (737,453) and the second number is the total number of series (24) in the dataframe. This format, (rows, series), is important to understand as well as it applies to other functions as well. <br><br>
+<img src="images/hr1.png?raw=true"><br><br>
+
+I translated this information into this Pairplot matrix:<br>
+
+<img src="images/hr2.png?raw=true"><br><br>
+
+Based on the visualizations in the matrix, the only real relationships presenting some kind of linear relationship are Age, Monthly Income, and Total Working Years. I looked further into these relationships later in my analysis.<br><br>
 
 
-### List of Series
+***Is the recent attrition attributed at all to age?***<br>
+
 Let's take a look at a list of all the series in our dataframe:<br><br>
 
 <img src="images/python5columns.png?raw=true"><br><br>
