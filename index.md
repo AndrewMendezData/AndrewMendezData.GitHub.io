@@ -2,6 +2,10 @@
 
 ### My Data Projects
 
+#### [HR Nightmare: Arguing Attrition](/project_hr)
+[<img src="images/arguingattrition.png?raw=true"/>](/project_hr)
+
+---
 #### [Flotation Plant Exploration with Python](/project_python)
 [<img src="images/zpythonplayground.png?raw=true"/>](/project_python)
 
