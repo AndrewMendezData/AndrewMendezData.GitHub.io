@@ -19,7 +19,7 @@ As part of an interview, I was asked to look into a dataset and answer the follo
 ### The Data
 You can find the data I used for this analysis [here](https://data.mendeley.com/datasets/8gx2fvg2k6/5).<br>
 This is real data for DataCo Global, which was acquired by Sword Consulting Group.
-<br>
+<br><br>
 
 
 ### Key Insights
@@ -28,7 +28,7 @@ Here are the most interesting findings:<br>
 * The most profitable *product* is the **Perfect Fitness Perfect Rip Deck** in the Cleats Category.
 * The *days actual* for shipping are **DOUBLE** the *days scheduled* estimate.
 * All of the categories with the *highest delivery rish* include all the highest selling and profiting categories which implies that there is a more overarching issue with shipping within the company.
-<br>
+<br><br>
 
 
 ### The Analysis
@@ -50,16 +50,16 @@ An intersting finding here was that although the category with **the highest sal
 <br>
 
 There are some categories and products here that should be under consideration for removal from their catelog to help streamline their focus into the products and categories that are actually making the company a profit. The **Strength Training** category, along with the **two Ellipticals and the Jolt Slopt Rangefinder** could be removed from focus to help allocate time, energy and money towards the others that are returning revenue.
-<br>
+<br><br>
 
 
-#### A Look Into Shipping
+### A Look Into Shipping
 
 <img src="images/minip_supplychain2.png?raw=true">
 <br>
 
 When we take a look into the *Scheduled Shipping Day* compared to the ***ACTUAL*** *Shipping Days*, we see that in actuality it takes **TWICE** as long to deliver these products than what is estimated. On the right, we see that the categories with the **Highest Delivery Risk** are congruent with the top performing categories in the company overall. This implies a foundational dysfunction within the shipping department that is permeating across the entire company.
-<br>
+<br><br>
 
 
 ### Conclusions
