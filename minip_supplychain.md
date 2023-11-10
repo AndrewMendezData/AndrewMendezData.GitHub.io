@@ -67,10 +67,10 @@ When we take a look into the *Scheduled Shipping Day* compared to the ***ACTUAL*
 * In terms of the **shipping** and **having less late deliveries**, a thorough process inventory should be taken of the shipping department to help highlight what what systems need to be defined further or create, what current habits or processes are actually *hindering* delivery time, and what plans need to be implemented to help the Shipping Department catch up to the sales that the company is seeing. It seems that the shippping "system" needs to be adjusted to provide the best customer experience with ordering with this company.
 <br><br>
 
-<p>I'm would be extremely curious to see ***how*** the company is handling incoming orders, ***how many hands*** does the order go through before it is packaged, what does the ***time to shipment*** process entail and how can we make it ***faster***? Answering these questions will undoudtedly bring this company to the next level and open the door for more sales potential.
-</p>
 
+I'm would be extremely curious to see ***how*** the company is handling incoming orders, ***how many hands*** does the order go through before it is packaged, what does the ***time to shipment*** process entail and how can we make it ***faster***? Answering these questions will undoudtedly bring this company to the next level and open the door for more sales potential.
 <br><br>
+
 
 ### What Now?
 This project is part of a Data Analytics Bootcamp ran by Avery Smith. Thank you [Avery](https://www.linkedin.com/in/averyjsmith/) for putting this bootcamp out into the world and allowing people from any place in their life to dive into the world of data!<br><br>
