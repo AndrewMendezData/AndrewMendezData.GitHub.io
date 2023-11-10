@@ -1,5 +1,5 @@
-# HR Nightmare: Arguing Attrition
-## Using R
+# The Supply Chain Project
+## Tableau
 
 <img src="images/arguingattrition.png?raw=true">
 
