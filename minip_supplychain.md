@@ -13,13 +13,13 @@ As part of an interview, I was asked to look into a dataset and answer the follo
 1. Give an **overview** of our business.
 2. Where does the company make the **most** money?
 3. How can we have less **late deliveries**?
-<br><br>
+<br><br><br>
 
 
 ### The Data
 You can find the data I used for this analysis [here](https://data.mendeley.com/datasets/8gx2fvg2k6/5).<br>
 This is real data for DataCo Global, which was acquired by Sword Consulting Group.
-<br><br>
+<br><br><br>
 
 
 ### Key Insights
@@ -28,7 +28,7 @@ Here are the most interesting findings:<br>
 * The most profitable *product* is the **Perfect Fitness Perfect Rip Deck** in the Cleats Category.
 * The *days actual* for shipping are **DOUBLE** the *days scheduled* estimate.
 * All of the categories with the *highest delivery rish* include all the highest selling and profiting categories which implies that there is a more overarching issue with shipping within the company.
-<br><br>
+<br><br><br>
 
 
 ### The Analysis
@@ -50,7 +50,7 @@ An intersting finding here was that although the category with **the highest sal
 <br>
 
 There are some categories and products here that should be under consideration for removal from their catelog to help streamline their focus into the products and categories that are actually making the company a profit. The **Strength Training** category, along with the **two Ellipticals and the Jolt Slopt Rangefinder** could be removed from focus to help allocate time, energy and money towards the others that are returning revenue.
-<br><br>
+<br><br><br>
 
 
 ### A Look Into Shipping
@@ -59,7 +59,7 @@ There are some categories and products here that should be under consideration f
 <br>
 
 When we take a look into the *Scheduled Shipping Day* compared to the ***ACTUAL*** *Shipping Days*, we see that in actuality it takes **TWICE** as long to deliver these products than what is estimated. On the right, we see that the categories with the **Highest Delivery Risk** are congruent with the top performing categories in the company overall. This implies a foundational dysfunction within the shipping department that is permeating across the entire company.
-<br><br>
+<br><br><br>
 
 
 ### Conclusions
@@ -70,6 +70,7 @@ When we take a look into the *Scheduled Shipping Day* compared to the ***ACTUAL*
 <p>I'm would be extremely curious to see ***how*** the company is handling incoming orders, ***how many hands*** does the order go through before it is packaged, what does the ***time to shipment*** process entail and how can we make it ***faster***? Answering these questions will undoudtedly bring this company to the next level and open the door for more sales potential.
 </p>
 
+<br><br>
 
 ### What Now?
 This project is part of a Data Analytics Bootcamp ran by Avery Smith. Thank you [Avery](https://www.linkedin.com/in/averyjsmith/) for putting this bootcamp out into the world and allowing people from any place in their life to dive into the world of data!<br><br>
