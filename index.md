@@ -2,6 +2,10 @@
 
 ### My Data Projects
 
+#### [Mini Project: Supply Chain with Tableau](/minip_supplychain)
+[<img src="images/minip_supplychainmain.png?raw=true"/>](/minip_supplychain)
+
+---
 #### [HR Nightmare: Arguing Attrition](/project_hr)
 [<img src="images/arguingattrition.png?raw=true"/>](/project_hr)
 
