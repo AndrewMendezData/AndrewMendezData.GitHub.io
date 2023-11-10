@@ -1,5 +1,5 @@
 # The Supply Chain Project
-## Tableau
+## Mini Project #1 with Tableau
 
 <img src="images/minip_supplychainmain.png?raw=true">
 
@@ -27,19 +27,23 @@ Here are the most interesting findings:<br>
 
 
 ### The Analysis
-***An overview of how some of the most important demographics correlate.***<br>
+#### An Overview of the Highest and Lowest Categories & Products
 
-First, I wanted to get a "bird's eye view" of some of the most important demographics for the company. They asked me to include: age, daily rate, distance from home, education, hourly rate, monthly income, monthly rate, number of companies worked, total working years, and training times last year.<br>
+<img src="images/minip_supplychain1.png?raw=true"><br><br>
 
-<img src="images/hr1.png?raw=true"><br><br>
+In these visuals, we can see that there are about **9 categories** that make up the MAJORITY of the sales and profit for the company. These include: Fishing, Cleats, Camping & Hiking, Cardio Equipment, Women's Apparel, Water Sports, Indoor/Outdoor Games, Men's Footware, and Shop by Sport.<br><br>
 
-I translated this information into this Pairplot matrix:<br>
+An intersting finding here was that although the category with **the highest sales** was Fishing, the product that has the **highest profit margin** comes from the "Cleats" category: *Perfect Fitness Perfect Rip Deck*. It might be beneficial for this company to remove certain categories and place more emphasis on their already popular Fishing Department.<br><br>
 
-<img src="images/hr2.png?raw=true"><br><br>
+Now let's take a look at the lowest performing categories and products:<br>
 
-Based on the visualizations in the matrix, the only real relationships presenting some kind of linear relationship are Age, Monthly Income, and Total Working Years. I looked further into these relationships later in my analysis.<br><br>
+<img src="images/minip_supplychain3.png?raw=true"><br><br>
 
-<br><br>
+There are some categories and products here that should be under consideration for removal from their catelog to help streamline their focus into the products and categories that are actually making the company a profit. The **Strength Training** category, along with the **two Ellipticals and the Jolt Slopt Rangefinder** could be removed from focus to help allocate time, energy and money towards the others that are returning revenue.<br><br>
+
+
+#### A Look Into Shipping
+
 
 
 ### Conclusions
