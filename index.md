@@ -26,7 +26,3 @@
 [<img src="images/MassMathMemo.png?raw=true"/>](/project_massmath)
 
 ---
-
-
-
-
