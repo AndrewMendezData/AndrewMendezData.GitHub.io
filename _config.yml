@@ -1,7 +1,6 @@
 title: Andrew Mendez # your name (or website title) here
 logo: "/images/blacksweaterhead.jpg?raw=true" # your photo (or logo) here
-description: 
-
+description: > # your text below (remove <br> elements if you don't need line breaks)
 Welcome!<br>
 My name is Andrew and I am currently making a pivot from 10 years in the Hospitality Industry into the world of data! I extremely motived and excited about this change and I've been currently refining skills in Excel, SQL, Tableau, and Python. Below you can click on the Data Tool Icon to see the projects I've done using those tools. To the right here are all the projects beginning with the most recent!
 <br>
@@ -9,7 +8,7 @@ My name is Andrew and I am currently making a pivot from 10 years in the Hospita
 I'm actively seeking a Data Analyst position! Thank you for visiting!
 <br><br>
 
-<a href="https://www.linkedin.com/in/andrewjosephmendez/">View My LinkedIn Profile</a> 
+<a href="https://www.linkedin.com/in/andrewmendezdata/">View My LinkedIn Profile</a> 
 
 
 theme: jekyll-theme-minimal
