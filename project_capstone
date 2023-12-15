@@ -43,29 +43,75 @@ This analysis was done with Excel.
 <br>
 
 "Export Tableau to Image" has a significantly higher CTR than the next 4 videos. We can also see that the video is *significantly* shorter than the others as well. Based on the average Watch Time per video that we found, we can see that viewers are interested in SHORT videos that get straight to the point. "In less than 1 minute" is **in the title** for this video, therefore displaying its appeal plain and clear.
-<br><br>
+<br><br><br>
 
 
-#### A Look Into Shipping
+#### Next, our videos generating the highest revenue:
 
-<img src="images/minip_supplychain2.png?raw=true">
+<img src="images/captop5revenue.png?raw=true">
 <br>
 
-When we take a look into the *Scheduled Shipping Day* compared to the ***ACTUAL*** *Shipping Days*, we see that in actuality it takes **TWICE** as long to deliver these products than what is estimated. On the right, we see that the categories with the **Highest Delivery Risk** are congruent with the top performing categories in the company overall. This implies a foundational dysfunction within the shipping department that is permeating across the entire company.
+In this Top 5, we have "Analysis of AirBnB Data Using SQL" as the highest revenue-generating video. This is surprising considering the length of the video, but there are other factors that could have affected its success. For example, the extent to which EACH video is monetized will have a significant effect to the earning potential per video. Also, the *timing* of the post could have been around a holiday or a busy time for AirBnB therefore drawing out viewers to see what the analysis found. 
+<br>
+
+We also found that the 3rd video in the Top 5 for revenue was actually the Tableau video that had the highest CTR above. Being able to monetize this video could have brought more revenue into the channel and maximized its potential value.
+<br>
+
+The "AirBnB Using SQL" project was the 3rd video in the lineup for the highest CTR videos. A deeper analysis into the thumbnail effectiveness could help shed some light on the reason why the Tableau Vid has a higher CTR so that this style could be replicated across videos.
+<br><br><br>
+
+
+#### In our last Top 5 lineup, the videos that drew the most subscribers:
+
+<img src="images/captop5subscribers.png?raw=true">
+<br>
+
+Here, we find a in the top slot "Building 30 Data Science Projects in 30 Days" which was actually the 4th video in generating revenue for the channel. This video, though, motivated the viewers to follow the channel, pointing to highly effective content in terms of bringing the viewers in to Avery's world and personality. Viewers may also find the title appealing as it seems like a huge feat to accomplish 30 projects in 30 days. 
+<br>
+
+We can also see the "Is it worth it?" coming in at #5 in this lineup for subscribers, but it was #2 in the highest revenue-generating videos. This could point to higher monetization and content, but not as appealing thumbnail for CTR. 
+<br><br><br>
+
+
+#### Let's take a look at our Top 3 Countries for Avery's Channel: 
+
+<img src="images/captop3countries.png?raw=true">
+<br>
+
+The United States is dominating the viewing by more than double of what India shows. The US also has the highest Average Watch Time from all three. From the top 3 countries, the average watch time *overall* is 2:07 minutes. This is important information to consider when making videos. It seems that the videos in Avery's Channel have many different durations and are not consistent across the board. Perhaps a more consistent video duration could help streamline the expectations of the viewers and attract more subscribers who know what to expect from Avery's Channel.
+<br><br><br>
+
+
+#### Views by Age Group:
+
+<img src="images/capviewsbyage.png?raw=true">
+<br>
+
+Over 50% of the views on Avery's Channel come from viewers in the age group of 25-34. This is important information to tailor video content but also to inform decisions on monetization and product promotion. Targeting this age group would move the needle in terms of the effectiveness of his content and marketing strategy. 
+<br><br><br>
+
+
+#### Viewer Sources:
+
+<img src="images/capsourceviews.png?raw=true">
+<br>
+
+The highest source for views on Avery's Channel is from External sources. This could be representative of his connection to his Data Analytics Bootcamp course to the videos in his channel, but looking into the next source, the Shorts Feed is the next highest yielding source for viewership to his channel. 
+<br>
+
+This information needs to help inform thumbnails and videos titles to help attract viewers to videos associated with shorts. It would benefit Avery's Channel greatly to take advantage of shorts on YouTube to help grow and scale his channel.
 <br><br><br>
 
 
 ### Conclusions
-* In regards to the top performing categories, and **lowest** performing, some thought should be brought to eliminating the lowest 25% of these to help reallocate time and energy into those that the company is doing well in. This will help build a brand and customer rapport and ultimately help solidify future success and stability. This could also give the company a chance to refine its direction and vision to help propel its family to future success.
-* In terms of the **shipping** and **having less late deliveries**, a thorough process inventory should be taken of the shipping department to help highlight what what systems need to be defined further or create, what current habits or processes are actually *hindering* delivery time, and what plans need to be implemented to help the Shipping Department catch up to the sales that the company is seeing. It seems that the shippping "system" needs to be adjusted to provide the best customer experience with ordering with this company.
+Our insights during this analysis help to illustrate where we need to be more consistent with Avery's videos and where we can focus our attention to help grow viewership to the channel. We also received some insight into the ideal duration of each video and what age group we should be targeting when selecting content. Overall, a more focused direction for future postings could greatly increase revenue and subscribers to Avery's already large following. Being able to harness this information will help build his channel to the next milestone. 
 <br><br>
 
 
-I'm would be extremely curious to see ***how*** the company is handling incoming orders, ***how many hands*** does the order go through before it is packaged, what does the ***time to shipment*** process entail and how can we make it ***faster***? Answering these questions will undoudtedly bring this company to the next level and open the door for more sales potential.
+---
 <br><br>
 
 
-### What Now?
 This project is part of a Data Analytics Bootcamp ran by Avery Smith. Thank you [Avery](https://www.linkedin.com/in/averyjsmith/) for putting this bootcamp out into the world and allowing people from any place in their life to dive into the world of data!<br><br>
 
 I'm currently seeking a Data Analyst role and continually learning and improving my data skills through this bootcamp and other incredible resources available on the web. Please give any feedback you have to help build and refine my toolbelt!<br><br>
