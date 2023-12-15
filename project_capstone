@@ -1,24 +1,27 @@
 # YouTube Channel Analysis
 ## The CAPSTONE Project
 
-<img src="images/minip_supplychainmain.png?raw=true">
+<img src="images/caplogo.png?raw=true">
 <br>
 
-First of the "Mini Project" Series in the DAA Bootcamp.
-<br>
+This is the final project in the Data Analytics Accelerator Bootcamp led by Avery Smith (DAA Bootcamp). The intention for this project is be presented with data and the analysis be self-led.<br>
 
 ---
 
-As part of an interview, I was asked to look into a dataset and answer the following questions:<br>
-1. Give an **overview** of our business.
-2. Where does the company make the **most** money?
-3. How can we have less **late deliveries**?
+### Objective
+The goal for this project was to analyze data from Avery's own YouTube Channel and do provide some insights to the following questions:<br>
+1. What are the best CTR Videos? What are their titles and thumbnails?
+2. What videos drive the most revenue?
+3. What videos drive the most subscribers?
+4. When do people stop watching videos? What can we change?
 <br><br><br>
 
 
 ### The Data
-You can find the data I used for this analysis [here](https://data.mendeley.com/datasets/8gx2fvg2k6/5).<br>
-This is real data for DataCo Global, which was acquired by Sword Consulting Group.
+**(The data was provided by Avery in the DAA Bootcamp. Actual data will not be disclosed here for privacy.)**<br>
+The data provided contained specifics on average and total watch time by country, video-specific data such as most viewed, highest CTR, total revenue, etc. The date range for this data is March 2020 to October 2023.
+<br>
+This analysis was done with Excel.
 <br><br><br>
 
 
