@@ -2,6 +2,10 @@
 
 ### My Data Projects
 
+#### [YouTube Data Analysis](/project_capstone)
+[<img src="images/caplogo.png?raw=true"/>](/project_capstone)
+
+---
 #### [Mini Project: Supply Chain with Tableau](/minip_supplychain)
 [<img src="images/minip_supplychainmain.png?raw=true"/>](/minip_supplychain)
 
