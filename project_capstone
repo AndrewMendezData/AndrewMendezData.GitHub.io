@@ -25,38 +25,28 @@ This analysis was done with Excel.
 <br><br><br>
 
 
-### Key Insights
-Here are the most interesting findings:<br>
-* The most profitable *category* for the company is **Fishing**.
-* The most profitable *product* is the **Perfect Fitness Perfect Rip Deck** in the Cleats Category.
-* The *days actual* for shipping are **DOUBLE** the *days scheduled* estimate.
-* All of the categories with the *highest delivery rish* include all the highest selling and profiting categories which implies that there is a more overarching issue with shipping within the company.
+### Key Findings
+* The video with the *highest click-through rate (CTR)* was "Export Tableau to Image" with a 12.4% CTR.
+* The video that *generated the most revenue* for this time period was "AirBnB Data Analystic Project Using SQL". 
+* The video that brought in the *most subscribers* was "Building 30 Data Science Projects in 30 Days".
+* The *Top 3 Countries* with the most views to Avery's Channel are: The US, India and The United Kingdom.
+* The *Average Watch Time per video* based on the top 3 countries is 2:07 minutes.
+* The *Age-Range* that watch Avery's Channel the most fall in the 25-34 category. (51%)
+* The *Top 3 Sources* that bring in the most views are: External Sources, Shorts Feed, & Browse Features.
 <br><br><br>
 
 
 ### The Analysis
-#### An Overview of the Highest and Lowest Categories & Products
+#### Here we have the videos with the highest CTR:
 
-<img src="images/minip_supplychain1.png?raw=true">
+<img src="images/captop5ctr.png?raw=true">
 <br>
 
-In these visuals, we can see that there are about **9 categories** that make up the MAJORITY of the sales and profit for the company. These include: Fishing, Cleats, Camping & Hiking, Cardio Equipment, Women's Apparel, Water Sports, Indoor/Outdoor Games, Men's Footware, and Shop by Sport.
-<br>
-
-An intersting finding here was that although the category with **the highest sales** was Fishing, the product that has the **highest profit margin** comes from the "Cleats" category: *Perfect Fitness Perfect Rip Deck*. It might be beneficial for this company to remove certain categories and place more emphasis on their already popular Fishing Department.
+"Export Tableau to Image" has a significantly higher CTR than the next 4 videos. We can also see that the video is *significantly* shorter than the others as well. Based on the average Watch Time per video that we found, we can see that viewers are interested in SHORT videos that get straight to the point. "In less than 1 minute" is **in the title** for this video, therefore displaying its appeal plain and clear.
 <br><br>
 
-***Now let's take a look at the lowest performing categories and products:***
-<br>
 
-<img src="images/minip_supplychain3.png?raw=true">
-<br>
-
-There are some categories and products here that should be under consideration for removal from their catelog to help streamline their focus into the products and categories that are actually making the company a profit. The **Strength Training** category, along with the **two Ellipticals and the Jolt Slopt Rangefinder** could be removed from focus to help allocate time, energy and money towards the others that are returning revenue.
-<br><br><br>
-
-
-### A Look Into Shipping
+#### A Look Into Shipping
 
 <img src="images/minip_supplychain2.png?raw=true">
 <br>
