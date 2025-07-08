@@ -1,4 +1,4 @@
-# Welcome to My Portfolio
+# Welcome to My Data Portfolio
 
 Hi, I’m Andrew — currently a Senior II Manager at The Cheesecake Factory and a student in TripleTen’s 10-month Data Science program. I’m passionate about using data to solve real business problems, uncover insights, and tell clear, compelling stories. My background in leading high-volume operations has sharpened my ability to think critically, collaborate cross-functionally, and make data-informed decisions under pressure.
 
