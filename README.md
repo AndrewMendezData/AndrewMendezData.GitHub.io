@@ -1,38 +1,29 @@
-## Data Analytics Project Portfolio
+# 🧠 Data Analyst Projects – Focus on Data Visualization
 
-### Introduction
+Welcome to my Data Analyst portfolio! This repository showcases a collection of projects that highlight my skills in **data analysis** and **data visualization**. Each project is designed to extract insights from real-world datasets and present them in a clear, visual format using tools like Python, SQL, Excel, and visualization libraries such as Matplotlib, Seaborn, and Tableau.
 
-Use this template to create a portfolio quicky. 
+## 📌 What You'll Find Here
 
-### Installation
+- Exploratory Data Analysis (EDA)
+- Interactive dashboards
+- Charts and visual stories from raw data
+- Data cleaning and preprocessing steps
+- Insights and summaries from various datasets
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+## 🛠️ Tools & Technologies
 
-You can use the editor on GitHub to maintain, edit, and preview the content for your website in Markdown files.
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Plotly)
+- **SQL**
+- **Excel**
+- **Tableau / Power BI**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 📈 Goal
 
-### Markdown
+The main goal of these projects is to turn data into meaningful visual insights that inform decision-making and storytelling. Whether it's exploring trends, detecting anomalies, or building dashboards, visualization is the key focus.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-```markdown
-Syntax highlighted code block
+Feel free to explore the projects and reach out with any questions or feedback!
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+📬 [**Email**](andrewmendez519@gmail.com)<br>
+🔗 [**LinkedIn**](linkedin.com/in/andrewmendezdata)
