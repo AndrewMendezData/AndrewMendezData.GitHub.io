@@ -5,11 +5,15 @@ Hi, I’m Andrew — currently a Senior II Manager at The Cheesecake Factory and
 <u>You’ll find two repositories here</u>: the first features data analysis and visualization projects I completed during the **Avery Smith Data Career Jumpstart Bootcamp**, and the second showcases my latest work from the **TripleTen Data Science** program (Expected Graduation, Sept 2025), where I’m diving deeper into machine learning, statistical modeling, and end-to-end project workflows.
 
 Let’s connect! I’m always open to feedback, collaboration, or just chatting about data, leadership, or how we can build smarter, more efficient systems together.
+<br><br>
+
 
 ### Check out my Data Projects!
 
 #### [TripleTen Data Science Projects](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/TripleTen-DS-Projects/index.md)
 [<img src="images/tripletenicon.png?raw=true"/>](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/TripleTen-DS-Projects/index.md)
+
+<br>
 
 #### [DataCareer Jumpstart Data Analyst Projects](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/Data-Analyst-Projects/index.md)
 [<img src="images/datajumpstarticon.png?raw=true"/>](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/Data-Analyst-Projects/index.md)
