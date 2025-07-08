@@ -6,7 +6,7 @@ Hi, I’m Andrew — currently a Senior II Manager at The Cheesecake Factory and
 
 Let’s connect! I’m always open to feedback, collaboration, or just chatting about data, leadership, or how we can build smarter, more efficient systems together.
 
+### Check out my Data Projects!
 
-
-#### [YouTube Data Analysis](/project_capstone)
-[<img src="images/caplogo.png?raw=true"/>](/project_capstone)
+#### [TripleTen Data Science Projects](/project_capstone)
+[<img src="images/tripletenicon.png?raw=true"/>](/project_capstone)
