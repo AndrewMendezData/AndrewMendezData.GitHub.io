@@ -9,9 +9,7 @@ Let’s connect! I’m always open to feedback, collaboration, or just chatting 
 ### Check out my Data Projects!
 
 #### [TripleTen Data Science Projects](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/TripleTen-DS-Projects/index.md)
-[<img src="images/tripletenicon.png?raw=true"/>](/[project_capstone](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/TripleTen-DS-Projects/index.md)
-
-<br><br>
+[<img src="images/tripletenicon.png?raw=true"/>](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/TripleTen-DS-Projects/index.md)
 
 #### [DataCareer Jumpstart Data Analyst Projects](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/Data-Analyst-Projects/index.md)
-[<img src="images/datajumpstarticon.png?raw=true"/>](/[project_capstone](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/Data-Analyst-Projects/index.md)
+[<img src="images/datajumpstarticon.png?raw=true"/>](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/Data-Analyst-Projects/index.md)
