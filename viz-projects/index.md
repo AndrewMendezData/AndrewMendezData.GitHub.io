@@ -1,4 +1,4 @@
-# 🧠 Data Analyst Projects – Focus on Data Visualization
+# 🧠 Data Analyst Projects
 
 Welcome to my Data Analyst portfolio! This repository showcases a collection of projects that highlight my skills in **data analysis** and **data visualization**. Each project is designed to extract insights from real-world datasets and present them in a clear, visual format using tools like Python, SQL, Excel, and visualization libraries such as Matplotlib, Seaborn, and Tableau.
 
