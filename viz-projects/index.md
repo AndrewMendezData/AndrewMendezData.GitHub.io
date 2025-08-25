@@ -26,4 +26,4 @@ The main goal of these projects is to turn data into meaningful visual insights 
 Feel free to explore the projects and reach out with any questions or feedback!
 
 📬 [**Email**](andrewmendez519@gmail.com)<br>
-🔗 [**LinkedIn**](linkedin.com/in/andrewmendezdata)
+🔗 [**LinkedIn**](linkedin.com/in/aandrewmendez)
