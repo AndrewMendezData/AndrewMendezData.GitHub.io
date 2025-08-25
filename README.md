@@ -44,6 +44,6 @@ Coming from a management background, I’ve seen firsthand how the right insight
 Breaking into the field of data science and open to work!
 
 - [**Email**](andrewmendez519@gmail.com)<br>
-- [**LinkedIn**](linkedin.com/in/andrewmendezdata)<br>
+- [**LinkedIn**](https://www.linkedin.com/in/aandrewmendez/)<br>
 
 Thanks for stopping by!
