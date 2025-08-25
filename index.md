@@ -8,8 +8,8 @@ Let’s connect! I’m always open to feedback, collaboration, or just chatting 
 <br><br>
 
 
-### Check out my Data Projects!
+### Check out my Data Projects! <br>
 <sub>**Left Icon:** Triple10 | Data Science Focused Projects</sub><br>
 <sub>**Right Icon:** Data Career Jumpstart | Data Analysis & Visualization Focus</sub>
 
-[<img src="images/tripletenicon.png?raw=true" width="320" title="Data Science Projects"/>](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/TripleTen-DS-Projects/index.md)[<img src="images/datajumpstarticon.png?raw=true" width="300" title="Data Analyst Projects"/>](https://github.com/AndrewMendezData/AndrewMendezData.GitHub.io/blob/Data-Analyst-Projects/index.md)
+[<img src="images/tripletenicon.png?raw=true" width="320" title="Data Science Projects"/>](/ds-projects/)[<img src="images/datajumpstarticon.png?raw=true" width="300" title="Data Analyst Projects"/>](/viz-projects/)
