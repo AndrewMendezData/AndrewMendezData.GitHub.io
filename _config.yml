@@ -4,13 +4,16 @@ description: >-
   👋 Hi, I’m Andrew — a data-driven professional with a passion for turning messy
   problems into actionable insights. My portfolio highlights projects in data cleaning,
   analysis, and visualization with a focus on business impact and real-world application.
+  <br><br>
 
   📊 With a background in high-performance operations and team leadership, I bring
   sharp analytical thinking, stakeholder empathy, and a bias toward clarity and execution.
   I love using Python, SQL, and Excel to make data not just readable — but meaningful.
+  <br><br>
 
   🧰 Tools: Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, Jupyter Notebooks,
   Excel/Power Query, plus BI and data storytelling.
+  <br><br>
 
   🚀 Always exploring new datasets, new tools, and new ways to add value through data.
 theme: jekyll-theme-minimal
