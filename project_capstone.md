@@ -4,7 +4,7 @@
 <img src="images/caplogo.png?raw=true">
 <br>
 
-This is the final project in the Data Analytics Accelerator Bootcamp led by Avery Smith (DAA Bootcamp). The intention for this project is be presented with data and the analysis be self-led.<br>
+This is the final project in the Data Analytics Accelerator Bootcamp led by Avery Smith (DAA Bootcamp). The intention for this project was to be presented with data and the analysis itself be self-led.<br>
 
 ---
 
